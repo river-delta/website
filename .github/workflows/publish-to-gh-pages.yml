@@ -15,5 +15,5 @@ jobs:
       - run: yarn install --frozen-lockfile
       # - run: git config user.name "<user name>" && git config user.email "user email"
       - run: yarn run deploy
-    env:
-      GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
+    # env:
+    #   GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
