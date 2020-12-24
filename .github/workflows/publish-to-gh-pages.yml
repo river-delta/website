@@ -14,6 +14,6 @@ jobs:
           node-version: 12
       - run: yarn install --frozen-lockfile
       - run: git config user.name "River Delta Bot" && git config user.email "76537137+riverdelta-bot@users.noreply.github.com"
-      - run: yarn run deploy
+      - run: yarn deploy
     # env:
     #   GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
