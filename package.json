@@ -10,7 +10,8 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
 		"build": "gatsby build",
-		"deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/river-delta/website.git",
+		"predeploy": "yarn build && cp CNAME public/",
+		"deploy": "yarn gh-pages -d public -r https://$GH_TOKEN@github.com/river-delta/website.git",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
