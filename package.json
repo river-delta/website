@@ -7,8 +7,8 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "develop": "yarn start",
+    "start": "gatsby develop --host=0.0.0.0",
 		"build": "gatsby build",
 		"predeploy": "yarn build && cp CNAME public/",
 		"deploy": "yarn gh-pages -d public -r https://$GH_TOKEN@github.com/river-delta/website.git",
