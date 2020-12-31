@@ -9,9 +9,9 @@
   "scripts": {
     "develop": "yarn start",
     "start": "gatsby develop --host=0.0.0.0",
-		"build": "gatsby build",
-		"predeploy": "yarn build && cp CNAME public/",
-		"deploy": "yarn gh-pages -d public -r https://$GH_TOKEN@github.com/river-delta/website.git",
+    "build": "gatsby build",
+    "predeploy": "yarn build && cp CNAME public/",
+    "deploy": "yarn gh-pages -d public -r https://$GH_TOKEN@github.com/river-delta/website.git",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -21,11 +21,18 @@
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^2.26.1",
     "gatsby-plugin-mdx": "^1.7.0",
+    "gatsby-plugin-postcss": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.7.0",
     "gatsby-source-filesystem": "^2.8.0",
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2",
+    "typescript": "^4.1.3"
   }
 }
