@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  app:
+    image: node:latest
+    ports:
+      - 8000:8000
+    volumes:
+      - $PWD:/home/node/app
+    working_dir: /home/node/app
+    command: yarn start
