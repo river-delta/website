@@ -1,4 +1,5 @@
 import React from 'react';
+import RiverIcon from '../../assets/icons/river.svg';
 
 export const Header: React.FC = () => {
 	const menuItems = [
@@ -7,10 +8,10 @@ export const Header: React.FC = () => {
 		{ href: '/contact', text: 'Contact' },
 	];
 	return (
-		<header className="flex p-2">
-			<div className="flex-none min-w-max m-2">
-				<span>Logo</span>
-				<a className="ml-2" href="/">River Delta</a>
+		<header className="flex items-center p-2 bg-secondary text-white">
+			<div className="flex min-w-max m-2">
+				<RiverIcon height="45px" width="40px" fill="#fff" />
+				<a className="ml-2 self-center text-2xl" href="/">River Delta</a>
 			</div>
 			<nav className="flex-grow">
 				<ul className="flex justify-end">

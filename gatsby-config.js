@@ -12,6 +12,14 @@ module.exports = {
 		},
 		"gatsby-plugin-mdx",
 		{
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /icons/,
+        },
+      },
+    },
+		{
 			resolve: "gatsby-source-filesystem",
 			options: {
 				name: "pages",
@@ -19,6 +27,6 @@ module.exports = {
 			},
 			__key: "pages",
 		},
-		"gatsby-plugin-postcss"
+		"gatsby-plugin-postcss",
 	],
 };
