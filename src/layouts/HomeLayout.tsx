@@ -6,8 +6,8 @@ export const HomeLayout = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<main className="">
-				<div className="container mx-auto md:px-16 px-6 py-6 pb-36">
+			<main className="bg-river">
+				<div className="container h-screen overflow-scroll mx-auto md:px-16 px-6 py-6 pb-36">
 					{children}
 				</div>
 			</main>

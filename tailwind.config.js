@@ -12,8 +12,14 @@ module.exports = {
 				},
 				tertiary: {
 					DEFAULT: '#91AEC1'
+				},
+				accent: {
+					DEFAULT: '#0A8754',
 				}
-			}
+			},
+			backgroundImage: theme => ({
+				'river': "url('/river.jpg')",
+			 })
 		},
   },
   variants: {

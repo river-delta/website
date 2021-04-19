@@ -4,7 +4,10 @@ import RiverIcon from '../../assets/icons/river.svg';
 export const Header: React.FC = () => {
 	const menuItems = [
 		{ href: '/about', text: 'About' },
-		{ href: '/services', text: 'Services' },
+		{ href: '/collective', text: 'Collective' },
+		{ href: '/agency', text: 'Agency' },
+		{ href: '/labs', text: 'Labs' },
+		{ href: '/studio', text: 'Studio' },
 		{ href: '/contact', text: 'Contact' },
 	];
 	return (

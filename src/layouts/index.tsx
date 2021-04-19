@@ -1,8 +1,8 @@
 import React from 'react';
-import { BaseLayout } from './BaseLayout';
+import { HomeLayout } from './HomeLayout';
 
 export default ({ children }) => {
 	return (
-		<BaseLayout>{children}</BaseLayout>
+		<HomeLayout>{children}</HomeLayout>
 	);
 }
