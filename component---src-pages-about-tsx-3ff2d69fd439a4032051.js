@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"2l/u":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),u=n("Nhdc");t.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement(u.a,{title:"River Delta | About"}),l.a.createElement("h1",null,"About"))}}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-3ff2d69fd439a4032051.js.map
