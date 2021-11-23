@@ -16,8 +16,8 @@ const IndexPage: React.FC = () => {
 				</h2>
 			</div>
 			<div className="flex flex-row-reverse">
-				<div className="max-w-xl my-4 p-5 bg-gray-800 bg-opacity-70 text-lg text-white">
 					<p>River Delta is a collection of four closely related initiatives. Each aims to address a different missing component in traditional approaches for service design and digital transformation.</p>
+				<div className="max-w-xl my-4 p-5 bg-gray-800 bg-opacity-70 text-lg text-white">
 					<p className="h-4"></p>
 					<p>
 						<p><a href="/collective" className="text-main hover:text-tertiary">The Collective</a> offers mentorship, peer-to-peer partnership, and personal development</p>
